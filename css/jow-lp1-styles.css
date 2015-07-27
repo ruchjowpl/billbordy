@@ -1565,9 +1565,11 @@ blockquote, blockquote p {
 }
 #billboard-1 {
 	background: url("../graph/bg-billboard-1.jpg") center top no-repeat;
+	background-size: 100% 100%;
 	color: #fff;
 	border-bottom: 5px solid #df0024;
-	position: relative
+	position: relative;
+	height:100vh;
 }
 #billboard-1 header {
 	padding: 20px 0 45px 0
@@ -1655,7 +1657,7 @@ blockquote, blockquote p {
 	text-align: center;
 	color: #fff;
 	position: relative;
-  	top: 20px;
+  	top: 80px;
   	bottom: 0;
   	background-color: gray;	
 }
@@ -1670,7 +1672,7 @@ blockquote, blockquote p {
 	height: 730px
 }
 #billboard-2 .actions-box {
-	margin-top: 250px;
+	margin-top: 40%;
 	text-align: center;
 	margin-right: 35%;
 }
@@ -1706,7 +1708,7 @@ blockquote, blockquote p {
 	}
 	#billboard-2 .actions-box a {
 		display: inline-block;
-		width: 250px;
+		margin-top: 60%;
 		margin: 5px 5px 0 20px;
 		padding: 30px 10px;
 		font-size: 1.25rem
@@ -1725,4 +1727,8 @@ blockquote, blockquote p {
 		padding: 42px 10px;
 		font: 800 1.5rem "Open Sans"
 	}
+}
+
+#billboard-3 {
+	text-align: center;
 }
