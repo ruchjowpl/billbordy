@@ -1669,12 +1669,11 @@ blockquote, blockquote p {
 	font: 800 1.25rem "Open Sans"
 }
 #billboard-2 .content {
-	height: 730px
+	height: 730px;
 }
 #billboard-2 .actions-box {
-	margin-top: 40%;
 	text-align: center;
-	margin-right: 35%;
+	margin-top: 42%;
 }
 #billboard-2 .actions-box a {
 	display: block;
